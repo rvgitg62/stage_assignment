@@ -8,4 +8,4 @@ pre-commit:
     #      run: dart format --output=none --line-length=120 --set-exit-if-changed .
 
     test:
-      run: flutter test
+      run: flutter test --coverage
