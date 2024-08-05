@@ -1,0 +1,47 @@
+name: stage_assignment
+description: Assigment to create insta like story board
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+
+  story_repository:
+    path: ./packages/story_repository
+
+  story_api:
+    path: ./packages/story_api
+
+  story_api_impl:
+    path: ./packages/story_api_impl
+
+  provider: ^6.1.2
+  cached_network_image: ^3.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  flutter_lints: ^4.0.0
+  mockito: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - packages/story_repository/assets/
+    - packages/story_api/assets/
+    - packages/story_api_impl/assets/

@@ -1,0 +1,21 @@
+name: story_api_impl
+description: implementation of story apis
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+  flutter: ^3.22.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  story_api:
+    path: ../story_api
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  flutter_lints: ^4.0.0

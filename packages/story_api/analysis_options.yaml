@@ -1,0 +1,4 @@
+include: package:flutter_lints/flutter.yaml
+
+# Lint rules that are specific to this package.
+# ignore constructor declarations should be placed before non constructor declarations
