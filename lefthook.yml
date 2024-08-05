@@ -4,8 +4,5 @@ pre-commit:
     analyse:
       run: dart analyze --no-fatal-warnings
 
-    #    format:
-    #      run: dart format --output=none --line-length=120 --set-exit-if-changed .
-
     test:
       run: flutter test --coverage
