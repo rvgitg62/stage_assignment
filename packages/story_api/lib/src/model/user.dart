@@ -3,9 +3,9 @@ import 'package:json_annotation/json_annotation.dart';
 part 'user.g.dart';
 
 @JsonSerializable()
-/// user details
-class User{
 
+/// user details
+class User {
   /// constructor for [User]
   User({
     required this.id,

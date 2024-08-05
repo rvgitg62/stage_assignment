@@ -18,7 +18,7 @@ void main() {
       final stories = await storyRepository.getStories().first;
       expect(stories, isA<List<UserStory>>());
     });
-    
+
     test('markReelAsViewed returns a Future', () async {
       final storyApi = TestStoryApi();
       final storyRepository = StoryRepository(storyApi: storyApi);
